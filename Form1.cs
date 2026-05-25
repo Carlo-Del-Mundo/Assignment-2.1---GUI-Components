@@ -175,7 +175,7 @@ namespace Assignment_2._1___GUI_Components
                 }
                 else if (eventRoll < spaceCredits && eventRoll > 10)
                 {
-                    lblStory.Text = $"You had a good rest. That's -{eventRoll} space credits and +{health}.";
+                    lblStory.Text = $"You had a good rest. That's -{eventRoll} space credits and +{eventRoll}.";
                     spaceCredits -= eventRoll;
                     health += eventRoll;
                 }

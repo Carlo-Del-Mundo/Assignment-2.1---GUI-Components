@@ -101,7 +101,7 @@
             MinimumSize = new Size(1800, 1300);
             Name = "frmMain";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Mars RPG";
+            Text = "Mars Traveller RPG";
             Load += frmMain_Load;
             pnlControl.ResumeLayout(false);
             ResumeLayout(false);
