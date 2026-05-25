@@ -167,7 +167,7 @@ namespace Assignment_2._1___GUI_Components
                 // random amount to spend in Hotel
                 int eventRoll = chance.Next(1, 30);
 
-                if (eventRoll < spaceCredits && eventRoll > 5  && eventRoll <= 10)
+                if (eventRoll < spaceCredits && eventRoll <= 10)
                 {
                     lblStory.Text = $"You ate a great meal. That's -{eventRoll} space credits and +10 health";
                     health += 10;

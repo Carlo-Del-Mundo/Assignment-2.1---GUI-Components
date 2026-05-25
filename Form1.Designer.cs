@@ -76,6 +76,7 @@
             cmbLocation.Name = "cmbLocation";
             cmbLocation.Size = new Size(531, 40);
             cmbLocation.TabIndex = 1;
+            cmbLocation.Text = "Select a Location";
             cmbLocation.SelectedIndexChanged += cmbLocation_SelectedIndexChanged;
             // 
             // lblStory
