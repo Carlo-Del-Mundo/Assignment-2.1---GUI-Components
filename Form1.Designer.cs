@@ -55,6 +55,7 @@
             btnExplore.TabIndex = 1;
             btnExplore.Text = "Explore";
             btnExplore.UseVisualStyleBackColor = true;
+            btnExplore.Click += btnExplore_Click;
             // 
             // lblStats
             // 
